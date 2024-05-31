@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+header{
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: hsl(0, 0%, 15%);
+    height: 50px;
+}
+aside{
+    border: solid black 1px;
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    border: solid black 1px;
+    width: 40%;
+    float: right;
+    padding: 10px;
+}
+article{
+    border: solid black 1px;
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    border: solid black 1px;
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
